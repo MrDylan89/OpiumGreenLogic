@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2023-10-30" view-index="0" gantt-divider-location="1499" resource-divider-location="385" version="3.2.3247" locale="it_IT">
+    <description/>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd10" name="ID" width="38" order="0"/>
+        <field id="tpd11" name="Numero dello schema" width="141" order="1"/>
+        <field id="tpd3" name="Nome" width="474" order="2"/>
+        <field id="tpd4" name="Data d'inizio" width="90" order="3"/>
+        <field id="tpd5" name="Data di fine" width="72" order="4"/>
+        <field id="tpd6" name="Durata" width="60" order="5"/>
+        <field id="tpd13" name="Risorse" width="384" order="6"/>
+        <field id="tpd8" name="Coordinatore" width="133" order="7"/>
+        <field id="tpd9" name="Predecessori" width="91" order="8"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="color.recent">
+            <![CDATA[#000000 #00ffff #0000cc #ffff00 #ff9900 #66ff00 #ff0000 #ff6666 #ff00ff #33ff33]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nome" width="249" order="0"/>
+        <field id="1" name="Ruolo predefinito" width="132" order="1"/>
+    </view>
+    <!-- -->
+    <calendars base-id="it">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="" month="1" date="1" type="HOLIDAY">
+            <![CDATA[New Years Day]]>
+        </date>
+        <date year="" month="1" date="6" type="HOLIDAY">
+            <![CDATA[Epiphany]]>
+        </date>
+        <date year="" month="4" date="25" type="HOLIDAY">
+            <![CDATA[Liberation Day]]>
+        </date>
+        <date year="" month="5" date="1" type="HOLIDAY">
+            <![CDATA[Labor Day]]>
+        </date>
+        <date year="" month="6" date="2" type="HOLIDAY">
+            <![CDATA[Republic Day]]>
+        </date>
+        <date year="" month="8" date="15" type="HOLIDAY">
+            <![CDATA[Assumption Day]]>
+        </date>
+        <date year="" month="11" date="1" type="HOLIDAY">
+            <![CDATA[All Saints Day]]>
+        </date>
+        <date year="" month="12" date="8" type="HOLIDAY">
+            <![CDATA[Immaculate Conception Day]]>
+        </date>
+        <date year="" month="12" date="25" type="HOLIDAY">
+            <![CDATA[Christmas Day]]>
+        </date>
+        <date year="" month="12" date="26" type="HOLIDAY">
+            <![CDATA[St. Stephen's Day]]>
+        </date>
+        <date year="2005" month="3" date="28" type="HOLIDAY">
+            <![CDATA[Easter Monday]]>
+        </date>
+        <date year="2006" month="4" date="17" type="HOLIDAY">
+            <![CDATA[Easter Monday]]>
+        </date>
+        <date year="2007" month="4" date="9" type="HOLIDAY">
+            <![CDATA[Easter Monday]]>
+        </date>
+        <date year="2008" month="3" date="24" type="HOLIDAY">
+            <![CDATA[Easter Monday]]>
+        </date>
+        <date year="2009" month="4" date="13" type="HOLIDAY">
+            <![CDATA[Easter Monday]]>
+        </date>
+        <date year="2010" month="4" date="5" type="HOLIDAY">
+            <![CDATA[Easter Monday]]>
+        </date>
+        <date year="2011" month="4" date="25" type="HOLIDAY">
+            <![CDATA[Easter Monday]]>
+        </date>
+        <date year="2012" month="4" date="9" type="HOLIDAY">
+            <![CDATA[Easter Monday]]>
+        </date>
+        <date year="2013" month="4" date="1" type="HOLIDAY">
+            <![CDATA[Easter Monday]]>
+        </date>
+        <date year="2014" month="4" date="21" type="HOLIDAY">
+            <![CDATA[Easter Monday]]>
+        </date>
+        <date year="2015" month="4" date="6" type="HOLIDAY">
+            <![CDATA[Easter Monday]]>
+        </date>
+        <date year="2016" month="3" date="28" type="HOLIDAY">
+            <![CDATA[Easter Monday]]>
+        </date>
+        <date year="2017" month="4" date="17" type="HOLIDAY">
+            <![CDATA[Easter Monday]]>
+        </date>
+        <date year="2018" month="4" date="2" type="HOLIDAY">
+            <![CDATA[Easter Monday]]>
+        </date>
+        <date year="2019" month="4" date="22" type="HOLIDAY">
+            <![CDATA[Easter Monday]]>
+        </date>
+        <date year="2020" month="4" date="13" type="HOLIDAY">
+            <![CDATA[Easter Monday]]>
+        </date>
+        <date year="2021" month="4" date="5" type="HOLIDAY">
+            <![CDATA[Easter Monday]]>
+        </date>
+        <date year="2022" month="4" date="18" type="HOLIDAY">
+            <![CDATA[Easter Monday]]>
+        </date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Avvio" color="#000000" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" start="2023-11-02" duration="36" complete="100" thirdDate="2023-12-06" thirdDate-constraint="0" expand="true">
+            <depend id="1" type="2" difference="0" hardness="Strong"/>
+            <task id="4" name="Definizione analisi preliminare" color="#ff0000" meeting="false" start="2023-11-02" duration="36" complete="100" thirdDate="2023-12-06" thirdDate-constraint="0" expand="true">
+                <depend id="7" type="2" difference="0" hardness="Strong"/>
+                <depend id="23" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="1" name="Progettazione" color="#000000" meeting="false" start="2023-12-27" duration="27" complete="2" thirdDate="2023-12-06" thirdDate-constraint="0" expand="true">
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
+            <task id="5" name="Operazioni su database" color="#ff9900" meeting="false" start="2023-12-27" duration="7" complete="14" thirdDate="2023-12-06" thirdDate-constraint="0" expand="true">
+                <task id="23" name="Scelta del DBMS" color="#ff9900" meeting="false" start="2023-12-27" duration="1" complete="100" thirdDate="2023-11-15" thirdDate-constraint="0" expand="true">
+                    <depend id="24" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="24" name="Sviluppo delle tabelle e delle relazioni" color="#ff9900" meeting="false" start="2023-12-28" duration="6" complete="0" thirdDate="2023-11-15" thirdDate-constraint="0" expand="true">
+                    <depend id="20" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="17" name="Progettazione Back-end" color="#66ff00" meeting="false" start="2024-01-08" duration="20" complete="0" thirdDate="2023-11-15" thirdDate-constraint="0" expand="true">
+                <task id="20" name="Sviluppo della struttura e delle specifiche per ogni servizio comunicativo API" color="#66ff00" meeting="false" start="2024-01-08" duration="7" complete="0" thirdDate="2024-03-04" thirdDate-constraint="0" expand="true">
+                    <depend id="21" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="21" name="Sviluppo della documentazione API" color="#66ff00" meeting="false" start="2024-01-17" duration="1" complete="0" thirdDate="2023-11-15" thirdDate-constraint="0" expand="true">
+                    <depend id="11" type="2" difference="0" hardness="Strong"/>
+                    <depend id="12" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="12" name="Autenticazione utente" color="#66ff00" meeting="false" start="2024-01-18" duration="11" complete="0" thirdDate="2023-12-06" thirdDate-constraint="0" expand="true">
+                    <depend id="22" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="22" name="Deploy della documentazione API" color="#66ff00" meeting="false" start="2024-02-02" duration="1" complete="0" thirdDate="2023-11-15" thirdDate-constraint="0" expand="true">
+                    <depend id="9" type="2" difference="0" hardness="Strong"/>
+                    <depend id="10" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="16" name="Progettazione Front-end" color="#ffff00" meeting="false" start="2023-12-27" duration="22" complete="0" thirdDate="2023-11-15" thirdDate-constraint="0" expand="true">
+                <task id="7" name="Mockup interfacce" color="#ffff00" meeting="false" start="2023-12-27" duration="1" complete="0" thirdDate="2023-12-06" thirdDate-constraint="0" expand="true">
+                    <depend id="18" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="18" name="Sviluppo delle schermate dell’applicazione" color="#ffff00" meeting="false" start="2023-12-28" duration="7" complete="0" thirdDate="2023-11-15" thirdDate-constraint="0" expand="true">
+                    <depend id="19" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="19" name="Sviluppo del collegamento ai servizi API" color="#ffff00" meeting="false" start="2024-01-09" duration="7" complete="0" thirdDate="2023-11-15" thirdDate-constraint="0" expand="true"/>
+                <task id="11" name="Presentazione dati in pagina web" color="#ffff00" meeting="false" start="2024-01-18" duration="7" complete="0" thirdDate="2023-12-06" thirdDate-constraint="0" expand="true"/>
+            </task>
+        </task>
+        <task id="2" name="Documentazione e testing" color="#000000" meeting="false" start="2024-02-05" duration="2" complete="0" thirdDate="2023-12-06" thirdDate-constraint="0" expand="true">
+            <depend id="13" type="2" difference="0" hardness="Strong"/>
+            <task id="25" name="Testing" color="#00ffff" meeting="false" start="2024-02-05" duration="2" complete="0" thirdDate="2024-04-03" thirdDate-constraint="0" expand="true">
+                <task id="10" name="Collaudo funzionalità" color="#00ffff" meeting="false" start="2024-02-05" duration="2" complete="0" thirdDate="2023-12-06" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="26" name="Documentazione" color="#0000cc" meeting="false" start="2024-02-05" duration="1" complete="0" thirdDate="2024-04-03" thirdDate-constraint="0" expand="true">
+                <task id="9" name="Documento di progetto" color="#0000cc" meeting="false" start="2024-02-05" duration="1" complete="0" thirdDate="2023-12-06" thirdDate-constraint="0" expand="true"/>
+            </task>
+        </task>
+        <task id="3" name="Presentazione" color="#000000" meeting="false" start="2024-02-07" duration="16" complete="0" thirdDate="2023-12-06" thirdDate-constraint="0" expand="true">
+            <task id="13" name="Presentazione progetto" color="#ff00ff" meeting="false" start="2024-02-07" duration="1" complete="0" thirdDate="2023-12-06" thirdDate-constraint="0" expand="true">
+                <depend id="14" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="14" name="Presentazione deivery software" color="#ff00ff" meeting="false" start="2024-02-08" duration="1" complete="0" thirdDate="2023-12-06" thirdDate-constraint="0" expand="true">
+                <depend id="15" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="15" name="Preparazione DEMO" color="#ff00ff" meeting="false" start="2024-02-09" duration="14" complete="0" thirdDate="2023-12-06" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Alessandro Biolchi " function="1" contacts="" phone=""/>
+        <resource id="1" name="Francesco D'Urso" function="2" contacts="" phone=""/>
+        <resource id="2" name="Sonny Hino" function="3" contacts="" phone=""/>
+        <resource id="3" name="Dimitri Popusoi" function="2" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="4" resource-id="0" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="0" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="0" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="0" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="14" resource-id="0" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="15" resource-id="0" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="1" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="16" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="26" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="18" resource-id="0" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="19" resource-id="0" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="0" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="15" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="23" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="17" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="25" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="20" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="21" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="10" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="15" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="23" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="18" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="19" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="15" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="23" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="20" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="21" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="18" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="19" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="3" function="2" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="Project manager"/>
+        <role id="2" name="Developer"/>
+        <role id="3" name="Product manager"/>
+    </roles>
+</project>
